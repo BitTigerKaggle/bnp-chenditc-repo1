@@ -22,3 +22,15 @@
     - Rank: 980
     - Log loss score: 0.47278
    
+#### 2016/02/18:
+ 1. Read Missing_Data_Our_View_of_the_State_of_art.pdf:
+   1. Missing data might be missing for different reason. 
+     - It might randomly missing due to the flaw during data collection. 
+       - Eg. Survey identity not reachable after first round of survey. 
+     - It might randomly missing due to the nature of the data. 
+       - Eg. Field is "The marriage year", but survey person is too young.
+     - It might missing with a probability correlate to specific property of the event. 
+       - Eg. HIV patient don't want to disclose the sexual orientation. 
+   2. Traditional way to recover missing data:
+     - Delete missing row: Reduced the power of traning size.
+     - Replace with average: preserved average, but disturb the covariance and the standard deviation. 
