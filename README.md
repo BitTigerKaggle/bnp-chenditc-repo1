@@ -34,3 +34,9 @@
    2. Traditional way to recover missing data:
      - Delete missing row: Reduced the power of traning size.
      - Replace with average: preserved average, but disturb the covariance and the standard deviation. 
+ 2. Tested on Azure Machine Learning:
+   1. Use mean to replace numerical missing value
+   2. Use NA to replace categorical missing value
+   3. Use Boosted Decision Tree to make prediction ( Tried more leaves per tree, tried more sample per tree )
+   
+   The result doesn't improve.
