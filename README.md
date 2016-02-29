@@ -34,9 +34,11 @@
    2. Traditional way to recover missing data:
      - Delete missing row: Reduced the power of traning size.
      - Replace with average: preserved average, but disturb the covariance and the standard deviation. 
+     - Simple hot deck: Randomly select one from existing fields. This preserve the mean and standard deviation.
+     - Linear regression: Use the estimate value based on linear regresion over other fields.
  2. Tested on Azure Machine Learning:
-   1. Use mean to replace numerical missing value
+   1. Use （ mean / 0 / -1 ) to replace numerical missing value
    2. Use NA to replace categorical missing value
    3. Use Boosted Decision Tree to make prediction ( Tried more leaves per tree, tried more sample per tree )
    
-   The result doesn't improve.
+   Use 0 or -1 yield better result. Tuning decision tree hyperparam doesn't improve overall performance.
