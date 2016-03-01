@@ -42,3 +42,17 @@
    3. Use Boosted Decision Tree to make prediction ( Tried more leaves per tree, tried more sample per tree )
    
    Use 0 or -1 yield better result. Tuning decision tree hyperparam doesn't improve overall performance.
+
+#### 2016/02/19:
+ 1. Tried boosted decision tree with 1000 node. The log loss is averaged around 0.50, which is even worse than the default setting (0.47278)
+ 2. Tried SVM and depp SVM model:
+   - SVM has log loss around 0.50 - 0.51, which does not perform better than decision tree.
+   - Deep SVM has log loss around 0.51 - 0.53, the log loss vary a lot during 10 fold cross validation. This shows Deep SVM is overfitting the result and does not derive more information.
+ 3. Kicked off neural network:
+   - 100 node in hidden layer. Train with 100 epoch. 10 fold validation. The mean error is still decreasing after 90 epochs, so kick off another job.
+   - 100 node in hidden layer. Train with 300 epoch. Generate test result directly.
+ 
+ Conclusion:
+  - There might be some magic value that make big difference of some fields, which makes decision tree perform better.
+  - The SVM model is restricted by the kernel it use, which might make it hard to accomodate some corner case.
+  - Kicked off neural network 
