@@ -3,7 +3,7 @@
 #### Competition site: https://www.kaggle.com/c/bnp-paribas-cardif-claims-management
 
 
-#### 2016/02/17:
+#### 2016/02/27:
  1. Tested AWS Machine Learning with default arguments. Tested result stored in aws_result:
    - aws_result_1.csv ( Result set downloaded from aws )
    - sample_submission.csv ( Sample format )
@@ -22,7 +22,7 @@
     - Rank: 980
     - Log loss score: 0.47278
    
-#### 2016/02/18:
+#### 2016/02/28:
  1. Read Missing_Data_Our_View_of_the_State_of_art.pdf:
    1. Missing data might be missing for different reason. 
      - It might randomly missing due to the flaw during data collection. 
@@ -43,7 +43,7 @@
    
    Use 0 or -1 yield better result. Tuning decision tree hyperparam doesn't improve overall performance.
 
-#### 2016/02/19:
+#### 2016/02/29:
  1. Tried boosted decision tree with 1000 node. The log loss is averaged around 0.50, which is even worse than the default setting (0.47278)
  2. Tried SVM and depp SVM model:
    - SVM has log loss around 0.50 - 0.51, which does not perform better than decision tree.
@@ -56,3 +56,10 @@
   - There might be some magic value that make big difference of some fields, which makes decision tree perform better.
   - The SVM model is restricted by the kernel it use, which might make it hard to accomodate some corner case.
   - Kicked off neural network 
+
+#### 2016/03/01:
+ 1. Tested neural network performance.
+   - 100 node in hidden layer produce log score 1.2
+   - 300 node in hidden layer produce log score 1.9
+   - Validate the produced lable and probability in traning set. The prediction error is quite low. The poor performance on test set means this model is overfitting the training set too much.
+   
