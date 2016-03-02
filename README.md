@@ -63,7 +63,9 @@
    - 300 node in hidden layer produce log score 1.9
    
    Validated the produced lable and probability in traning set. The prediction error is quite low. The poor performance on test set means this model is overfitting the training set too much.
+
    Another explaination is the input data format. I didn't normalize the input data, which might cause skew in some way.
+   
    Forum discussion suggest it can achieve Leader Board score 0.46 using NN, so might need to dig further.
  2. Forum discussion thread:
    - Replace missing value with out of range value (-1 / -999) improved result. Espcially for tree based algorithm.
