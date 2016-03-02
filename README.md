@@ -69,7 +69,7 @@
    Forum discussion suggest it can achieve Leader Board score 0.46 using NN, so might need to dig further.
  2. Forum discussion thread:
    - Replace missing value with out of range value (-1 / -999) improved result. Espcially for tree based algorithm.
-   - *Add additional column to indicate missing value can help.*
-   - *How to distinguish "Data is missing" and "Data is not applicable"?*
-   - *drop v22 seems to help, need to understand why*
+   - **Add additional column to indicate missing value can help.**
+   - **How to distinguish "Data is missing" and "Data is not applicable"?**
+   - **drop v22 seems to help, need to understand why**
    
