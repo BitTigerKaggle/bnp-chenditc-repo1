@@ -73,3 +73,22 @@
    - **How to distinguish "Data is missing" and "Data is not applicable"?**
    - **drop v22 seems to help, need to understand why**
    
+#### 2016/03/13:
+ 1. Forum discussion thread: https://www.kaggle.com/c/bnp-paribas-cardif-claims-management/forums/t/19240/analysis-of-duplicate-variables-correlated-variables-large-post
+   - Direct conclusion:
+     - v91 and v107 are duplicated variable. v71 and v75 are highly correlated. v47 and v110 almost duplicates.
+       - This might not improve the overall performance, but in production stream analysis, this can save memory / cpu resource.
+     - v31's missing value share same distribution as v31's B.
+       - We can try to impute v31's missing value with B.
+     - Numerical variable with large correlation:
+       - Chained correlation can be discovered and may be able to explain some correlations.
+     - Missing value pattern are found to have approximately 50 groups:
+       - https://kaggle2.blob.core.windows.net/forum-message-attachments/111103/3873/Missing%20Values.htm?sv=2012-02-12&se=2016-03-16T20%3A00%3A56Z&sr=b&sp=r&sig=q%2F%2FbrrtE6CRPw80a2quyFtbgMH4wj3alU2%2BFLGW7BcA%3D
+   - Futher reading and future work:
+     - Try to replace some correlated value with the residual to "first-level variables".
+     - CHAID model (https://en.wikipedia.org/wiki/CHAID):
+       - Used for detection of interaction between variables
+     - U-test
+     - Add one categorical feature which represents which missing pattern is it.
+       - Eg. Non-NA, NA1, NA2 ... NA50
+       - This might catch the different type of individual from different data source.
