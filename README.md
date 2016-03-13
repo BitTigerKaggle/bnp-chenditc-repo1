@@ -89,6 +89,5 @@
      - CHAID model (https://en.wikipedia.org/wiki/CHAID):
        - Used for detection of interaction between variables
      - U-test
-     - Add one categorical feature which represents which missing pattern is it.
-       - Eg. Non-NA, NA1, NA2 ... NA50
+     - Add one categorical feature which represents which missing pattern is it. Eg. Non-NA, NA1, NA2 ... NA50.
        - This might catch the different type of individual from different data source.
