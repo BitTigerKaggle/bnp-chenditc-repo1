@@ -91,3 +91,12 @@
      - U-test
      - Add one categorical feature which represents which missing pattern is it. Eg. Non-NA, NA1, NA2 ... NA50.
        - This might catch the different type of individual from different data source.
+
+#### 2016/03/18:
+1. Forum discussion thread: https://www.kaggle.com/scirpus/bnp-paribas-cardif-claims-management/benouilli-naive-bayes
+   - BernoulliNB feature reduction / categorical feature transformation:
+     - Transform categorical feature to one hot encoding
+     - Use BernoulliNB to train a predictor that predict a one-hot-encoding feature vs target.
+     - Use predictor to produce the probability of target, use it to replace original categorical feature
+     
+     This seems to try to be a clustering method for categorical feature. Eg. The feature that tends to generate same result tends to be grouping together. If a feature A has high probability to produce 1, and feature B also has high probability to produce 1, they will both have a value after BernoulliNB transform. This can help tree-based learner, as there will be less noise from this categorical feature.
