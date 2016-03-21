@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python -u
 import pandas
 import zipfile
 from sklearn import preprocessing
@@ -42,7 +42,6 @@ def cross_validate(data, target):
     scores = cross_validation.cross_val_score(clf, data, target, cv = 10, scoring='log_loss')
     return scores
 
-#train_file = zipfile.ZipFile('../train.csv.zip').read('train.csv', )
 df = pandas.read_csv('./train.csv')
 
 df = addMissingPattern(df)
@@ -51,9 +50,8 @@ fillNull(df)
 
 convertToNumeric(df)
 
-print df.iloc[:100]
+scores = cross_validate(df.drop(['ID','target'], axis=1), df['target']) 
 
 print "Cross validation scores:"
-print cross_validate(df.drop(['ID','target'], axis=1), df['target']) 
-
-# train_ana_predict(df)
+print scores
+print "Average: {0}".format(sum(scores) / 10.0)
