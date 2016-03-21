@@ -103,3 +103,4 @@
 
 #### 2016/03/21:
 1. Implemented missing pattern as a new categorical feature. There are moer than 150 patterns available. I see small improvement like 0.0003
+2. Tested BernoulliNB feature reduction trick. It can't be apply to all features. If the feature vs target has low correlation and similar distribution, the result probability might be same for multiple features.
