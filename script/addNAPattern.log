@@ -1,0 +1,24 @@
+Converting v3 to numerical data
+Converting v22 to numerical data
+Converting v24 to numerical data
+Converting v30 to numerical data
+Converting v31 to numerical data
+Converting v47 to numerical data
+Converting v52 to numerical data
+Converting v56 to numerical data
+Converting v66 to numerical data
+Converting v71 to numerical data
+Converting v74 to numerical data
+Converting v75 to numerical data
+Converting v79 to numerical data
+Converting v91 to numerical data
+Converting v107 to numerical data
+Converting v110 to numerical data
+Converting v112 to numerical data
+Converting v113 to numerical data
+Converting v125 to numerical data
+Converting missing_pattern to numerical data
+Cross validation scores:
+[-0.45393111 -0.45711152 -0.45934812 -0.45784104 -0.45411208 -0.45738091
+ -0.46249205 -0.45375325 -0.45660637 -0.45456587]
+Average: -0.456714232278

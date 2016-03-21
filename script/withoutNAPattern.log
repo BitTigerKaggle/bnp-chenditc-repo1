@@ -1,0 +1,23 @@
+Converting v3 to numerical data
+Converting v22 to numerical data
+Converting v24 to numerical data
+Converting v30 to numerical data
+Converting v31 to numerical data
+Converting v47 to numerical data
+Converting v52 to numerical data
+Converting v56 to numerical data
+Converting v66 to numerical data
+Converting v71 to numerical data
+Converting v74 to numerical data
+Converting v75 to numerical data
+Converting v79 to numerical data
+Converting v91 to numerical data
+Converting v107 to numerical data
+Converting v110 to numerical data
+Converting v112 to numerical data
+Converting v113 to numerical data
+Converting v125 to numerical data
+Cross validation scores:
+[-0.45413972 -0.45702655 -0.46203898 -0.45847041 -0.45408528 -0.45680367
+ -0.46268483 -0.45446084 -0.45631994 -0.4547926 ]
+Average: -0.457082282682
