@@ -100,3 +100,7 @@
      - Use predictor to produce the probability of target, use it to replace original categorical feature
      
      This seems to try to be a clustering method for categorical feature. Eg. The feature that tends to generate same result tends to be grouping together. If a feature A has high probability to produce 1, and feature B also has high probability to produce 1, they will both have a value after BernoulliNB transform. This can help tree-based learner, as there will be less noise from this categorical feature.
+
+#### 2016/03/21:
+1. Implemented missing pattern as a new categorical feature. There are moer than 150 patterns available. I see small improvement like 0.0003
+2. Tested BernoulliNB feature reduction trick. It can't be apply to all features. If the feature vs target has low correlation and similar distribution, the result probability might be same for multiple features.
