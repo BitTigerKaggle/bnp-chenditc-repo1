@@ -43,10 +43,10 @@ def grid_search(data, target):
     # use a full grid over all parameters
     param_grid = {
 #                  "n_estimators": [20, 200, 600, 1000],
-                  "n_estimators": [200, 400, 600, 800, 1000],
+                  "n_estimators": [600],
 		  "max_features": [80],
-#		  "min_samples_split": [1, 5, 10, 20],
-#		  "max_depth": [30, 40, 50],
+		  "min_samples_split": [1, 5, 10, 20],
+		  "max_depth": [30, 40, 50],
 #		  "min_samples_leaf": [2, 5, 10],
 #		  "criterion": ["gini", "entropy"]
     }
