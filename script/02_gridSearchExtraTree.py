@@ -42,7 +42,7 @@ def convertToNumeric(df):
 def grid_search(data, target):
     # use a full grid over all parameters
     param_grid = {"n_estimators": [20, 200, 600, 1000],
-		  "max_features": [3, 10, 20, 50],
+		  "max_features": [20, 50, 100],
 		  "min_samples_split": [1, 5, 10, 20],
 		  "max_depth": [10, 20, 40, 100],
 		  "min_samples_leaf": [2, 5, 10, 20],

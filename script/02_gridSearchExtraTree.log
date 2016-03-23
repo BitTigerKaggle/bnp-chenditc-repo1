@@ -1,0 +1,495 @@
+Converting v3 to numerical data
+Converting v22 to numerical data
+Converting v24 to numerical data
+Converting v30 to numerical data
+Converting v31 to numerical data
+Converting v47 to numerical data
+Converting v52 to numerical data
+Converting v56 to numerical data
+Converting v66 to numerical data
+Converting v71 to numerical data
+Converting v74 to numerical data
+Converting v75 to numerical data
+Converting v79 to numerical data
+Converting v91 to numerical data
+Converting v107 to numerical data
+Converting v110 to numerical data
+Converting v112 to numerical data
+Converting v113 to numerical data
+Converting v125 to numerical data
+Converting missing_pattern to numerical data
+Fitting 3 folds for each of 1536 candidates, totalling 4608 fits
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504916 -   1.1s
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502296 -   1.0s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.501399 -   0.8s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503909 -   7.2s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503104 -   7.0s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502665 -   6.1s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504397 -  21.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502992 -  20.6s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502899 -  19.8s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504533 -  36.1s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502921 -  35.4s
+[Parallel(n_jobs=-1)]: Done  11 tasks      | elapsed:  1.5min
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504795 -   2.4s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503308 -   2.1s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502502 -   2.2s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504113 -   7.6s
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502935 -  29.9s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503192 -   7.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502589 -   7.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504268 -  22.2s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502770 -  22.3s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503002 -  21.7s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504433 -  35.6s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502982 -  35.2s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504097 -   1.9s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502653 -   2.0s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503922 -   2.1s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502752 -  31.9s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504827 -   5.5s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503255 -   6.3s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503120 -   6.1s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504673 -  22.1s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503438 -  21.4s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503109 -  20.8s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504667 -  35.5s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503325 -  35.7s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504778 -   1.9s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504447 -   2.0s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503130 -   1.9s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503219 -  31.4s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505470 -   5.6s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503414 -   6.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503038 -   6.3s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504879 -  21.3s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503110 -  21.5s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.502968 -  20.1s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504787 -  35.6s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503153 -  35.8s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504465 -   2.1s
+[Parallel(n_jobs=-1)]: Done  48 tasks      | elapsed:  6.4min
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504490 -   2.1s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502941 -   2.0s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.502928 -  31.1s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504706 -   6.1s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502958 -   6.2s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.502849 -   6.8s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504395 -  21.6s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503320 -  21.3s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503067 -  20.8s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504649 -  35.7s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503256 -  35.4s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504465 -   2.0s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504490 -   2.1s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.501454 -   2.0s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503132 -  32.2s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504729 -   6.1s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502966 -   7.2s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502815 -   7.2s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504833 -  21.8s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503412 -  22.2s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502822 -  20.5s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504536 -  35.3s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503289 -  35.3s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502688 -   2.2s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504294 -   1.9s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502775 -   2.0s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.502900 -  31.8s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504729 -   6.0s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502966 -   7.1s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502819 -   7.0s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504349 -  21.5s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503384 -  22.0s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502861 -  20.3s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504602 -  36.2s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503580 -  34.8s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.506601 -   2.1s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.502911 -   1.9s
+[CV] min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503220 -   2.1s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.502886 -  31.4s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504722 -   6.8s
+[CV] min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503328 -   7.3s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.502951 -   7.3s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504690 -  22.1s
+[CV] min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503200 -  22.1s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503058 -  20.6s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504738 -  34.9s
+[CV] min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503303 -  35.4s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504451 -   2.1s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505542 -   2.0s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504298 -   2.3s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=5, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503248 -  32.0s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504983 -   5.3s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504074 -   6.4s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503972 -   6.1s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505023 -  21.9s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503731 -  21.5s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503577 -  20.2s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505494 -  35.7s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503591 -  35.5s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504451 -   2.1s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505147 -   1.9s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504313 -   1.9s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503630 -  30.8s
+[Parallel(n_jobs=-1)]: Done 111 tasks      | elapsed: 14.8min
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505157 -   5.9s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503831 -   6.8s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503752 -   6.6s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505102 -  21.6s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503510 -  21.7s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503723 -  20.0s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505410 -  35.5s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503656 -  35.2s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.506724 -   2.0s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504357 -   2.2s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.506780 -   2.1s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503647 -  31.0s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505157 -   6.0s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503521 -   7.3s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504095 -   6.9s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505102 -  22.1s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503510 -  22.1s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503744 -  20.9s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505316 -  35.1s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503715 -  35.1s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504797 -   1.9s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503634 -   1.9s
+[CV] min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.506153 -   2.1s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503671 -  31.4s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505108 -   6.4s
+[CV] min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503670 -   6.4s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503974 -   5.9s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505430 -  21.2s
+[CV] min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503510 -  21.4s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503607 -  19.5s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505403 -  35.6s
+[CV] min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503715 -  35.4s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505859 -   1.9s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503501 -   1.8s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505186 -   1.9s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505529 -   7.5s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=10, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503678 -  31.6s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504693 -   7.4s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.503437 -   7.5s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505922 -  22.1s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504104 -  22.2s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504388 -  20.4s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.505869 -  35.2s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504243 -  34.7s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.506932 -   2.0s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505387 -   2.1s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505186 -   2.1s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=1, max_depth=10, score=-0.504132 -  31.0s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505467 -   6.4s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503771 -   6.5s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.503509 -   6.0s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505952 -  21.1s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504465 -  21.2s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504567 -  19.7s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.505900 -  35.3s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504131 -  34.9s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.507840 -   2.1s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504556 -   1.9s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.507242 -   1.8s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=5, max_depth=10, score=-0.504194 -  31.4s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505994 -   6.9s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504841 -   6.9s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.503509 -   7.3s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505952 -  21.5s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504409 -  21.7s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504285 -  20.3s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.505857 -  35.1s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504117 -  34.7s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505720 -   2.0s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503430 -   1.8s
+[CV] min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=20, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.507293 -   2.1s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=10, max_depth=10, score=-0.504501 -  31.5s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505622 -   6.1s
+[CV] min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.503816 -   6.3s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=200, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505031 -   6.9s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505688 -  21.6s
+[CV] min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504276 -  21.5s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=600, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504674 -  20.0s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.505857 -  35.0s
+[CV] min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504117 -  34.6s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.489353 -   3.4s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.487342 -   3.5s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.486906 -   3.2s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=20, n_estimators=1000, max_features=20, criterion=gini, min_samples_split=20, max_depth=10, score=-0.504527 -  30.5s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.489400 -  17.3s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.486792 -  17.4s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.487074 -  16.4s
+[Parallel(n_jobs=-1)]: Done 198 tasks      | elapsed: 26.7min
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.489182 -  52.3s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.486521 -  51.4s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.487108 -  50.4s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.489265 - 1.5min
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.486560 - 1.5min
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.489486 -   3.7s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.486706 -   3.6s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.487170 -   3.4s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.489527 -  19.5s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=1, max_depth=10, score=-0.487337 - 1.3min
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.486933 -  15.9s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.487744 -  15.9s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.489177 -  52.3s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.486770 -  52.0s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.487354 -  50.6s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.489191 - 1.5min
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.486547 - 1.5min
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.489425 -   3.4s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.486749 -   4.0s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.487707 -   3.6s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.488904 -  19.8s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=5, max_depth=10, score=-0.487127 - 1.3min
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.487033 -  16.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.487375 -  15.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.489296 -  52.1s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.486372 -  52.4s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.487298 -  49.9s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.489212 - 1.5min
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.486634 - 1.4min
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.490580 -   3.6s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.488614 -   3.7s
+[CV] min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=20, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.490680 -   3.6s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.489996 -  19.6s
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=10, max_depth=10, score=-0.487229 - 1.3min
+[CV] min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.487164 -  16.8s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.487625 -  16.1s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
