@@ -493,3 +493,7 @@ Fitting 3 folds for each of 1536 candidates, totalling 4608 fits
 [CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
 [CV]  min_samples_leaf=2, n_estimators=200, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.487625 -  16.1s
 [CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.489706 -  53.5s
+[CV] min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
+[CV]  min_samples_leaf=2, n_estimators=600, max_features=50, criterion=gini, min_samples_split=20, max_depth=10, score=-0.486955 -  52.7s
+[CV] min_samples_leaf=2, n_estimators=1000, max_features=50, criterion=gini, min_samples_split=20, max_depth=10 
