@@ -104,3 +104,12 @@
 #### 2016/03/21:
 1. Implemented missing pattern as a new categorical feature. There are moer than 150 patterns available. I see small improvement like 0.0003
 2. Tested BernoulliNB feature reduction trick. It can't be apply to all features. If the feature vs target has low correlation and similar distribution, the result probability might be same for multiple features.
+
+#### 2016/03/29:
+1. *TODO*: Preprocess highly correlated feature.
+  - In this dataset, there are large amount of fields have high correlation score to each other. Background: https://www.kaggle.com/c/bnp-paribas-cardif-claims-management/forums/t/19240/analysis-of-duplicate-variables-correlated-variables-large-post
+  - These highly correlated field does not improve tree-based predictor. 
+    - Eg. X1 represent income, X2 represent apartment rent, Y represent credit card decision 1 or 0. X1 is likely to be highly correlated to X2, so tree-based predictor will just select X1 as feature, adding X2 won't improve prediction too much. 
+  - Derived feature using the residual from correlation function can be useful.
+    - Eg. X1 represent income, X2 represent apartment rent, Y represent credit card decision 1 or 0. We first derive a linear regression for X2 based on X1, we will get ```predicted_X2 = a * X1 + b```, and ```residual_X2 = X2 - predicted_X2 = X2 - a * X1 -b```. ```residual_X2``` can represent a person's willing ness to save money, which can help predict if a credit card should be issued. This information cannot be derived automatically from tree-based model, because tree-based model is using absolute variable value as prediction indicator.
+  - Neural network can derive linear / non-linear feature automatically. Neural network is based on matrix multiplication like: ```predict_y = M * x + C```, M is a matrix with dimension ```R(x)*R(y)```, C is a matrix with dimension ```1*R(y)```. Thus, a derived feature ```residual_X2 = X2 - a * X1 - b``` can be represent as ```neural_layer_1 = [[0, 1], [-a, 0]] * [X1, X2] - [0, b]```. The interconnection matrix can be learned by neural network directly, thus provide more helpful features.
