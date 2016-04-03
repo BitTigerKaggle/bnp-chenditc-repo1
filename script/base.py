@@ -1,11 +1,26 @@
 #!/usr/bin/python -u
 import pandas
 import zipfile
+from time import time
 from sklearn import preprocessing
 from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.grid_search import GridSearchCV
 from sklearn.naive_bayes import BernoulliNB
 from sklearn import ensemble
 from sklearn import cross_validation
+
+# use a full grid over all parameters
+param_grid = {
+#                  "n_estimators": [20, 200, 600, 1000],
+              "n_estimators": [600],
+              "max_features": [80],
+              "min_samples_split": [1, 5, 10, 20],
+              "max_depth": [30, 40, 50],
+#		  "min_samples_leaf": [2, 5, 10],
+#		  "criterion": ["gini", "entropy"]
+}
+
+
 
 def addMissingPattern(df):
     # Add missing data pattern identifier.
@@ -55,3 +70,15 @@ def fit_and_print_importance(data, target):
     importance_pairs = sorted(importance_pairs, key=lambda x: x[1], reverse=True)
     for item in importance_pairs:
         print item
+
+def grid_search(data, target):
+    # run grid search
+    clf = getModel()
+    grid_search = GridSearchCV(clf, param_grid=param_grid, scoring='log_loss', n_jobs=-1, pre_dispatch=2, verbose=6)
+    start = time()
+    grid_search.fit(data, target)
+
+    print("GridSearchCV took %.2f seconds for %d candidate parameter settings."
+	  % (time() - start, len(grid_search.grid_scores_)))
+    print(grid_search.grid_scores_)
+
