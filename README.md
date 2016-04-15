@@ -113,3 +113,12 @@
   - Derived feature using the residual from correlation function can be useful.
     - Eg. X1 represent income, X2 represent apartment rent, Y represent credit card decision 1 or 0. We first derive a linear regression for X2 based on X1, we will get ```predicted_X2 = a * X1 + b```, and ```residual_X2 = X2 - predicted_X2 = X2 - a * X1 -b```. ```residual_X2``` can represent a person's willing ness to save money, which can help predict if a credit card should be issued. This information cannot be derived automatically from tree-based model, because tree-based model is using absolute variable value as prediction indicator.
   - Neural network can derive linear / non-linear feature automatically. Neural network is based on matrix multiplication like: ```predict_y = M * x + C```, M is a matrix with dimension ```R(x)*R(y)```, C is a matrix with dimension ```1*R(y)```. Thus, a derived feature ```residual_X2 = X2 - a * X1 - b``` can be represent as ```neural_layer_1 = [[0, 1], [-a, 0]] * [X1, X2] - [b, 0]```. The interconnection matrix can be learned by neural network directly, thus provide more helpful features.
+
+#### 2016/04/14:
+1. Implmented new feature based on inter correlation's residual. ```residual = data - PCA_inverse_transform(data)```. No improvement on original data.
+2. Implemented "smart" grid search, take similar idea as gradient decent. Since we can't calculate the gradient, we use the performance difference as a measure of gradiant.
+ - Start from a default configuration.
+ - Tune one param at a time by searching the neighborhood grid.
+ - Tune another param when no improvement on current param.
+ - Turn all param in a loop.
+ 
