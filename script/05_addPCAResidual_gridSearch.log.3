@@ -1,0 +1,674 @@
+reading data
+reprocessing
+Converting v3 to numerical data
+Converting v22 to numerical data
+Converting v24 to numerical data
+Converting v30 to numerical data
+Converting v31 to numerical data
+Converting v47 to numerical data
+Converting v52 to numerical data
+Converting v56 to numerical data
+Converting v66 to numerical data
+Converting v71 to numerical data
+Converting v74 to numerical data
+Converting v75 to numerical data
+Converting v79 to numerical data
+Converting v91 to numerical data
+Converting v107 to numerical data
+Converting v110 to numerical data
+Converting v112 to numerical data
+Converting v113 to numerical data
+Converting v125 to numerical data
+Converting missing_pattern to numerical data
+input feature shape: (114321, 128)
+pca_feature shape: (114321, 80)
+pca_residual shape: (114321, 128)
+Seaching params: {'n_estimators': [850], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.470571 - 4.6min
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.468642 - 4.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.468519 - 2.2min
+[Parallel(n_jobs=-1)]: Done   4 out of   3 | elapsed:  6.8min remaining:  -102.5s
+[Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:  6.8min finished
+GridSearchCV took 631.33 seconds for 1 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 850, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469243909223
+Seaching params: {'n_estimators': [804, 850, 895], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2, score=-0.470277 - 4.4min
+[CV]  max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2, score=-0.468980 - 4.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=804, max_depth=40, min_samples_leaf=2, score=-0.468877 - 4.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.470310 - 4.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.468972 - 4.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=850, max_depth=40, min_samples_leaf=2, score=-0.468872 - 4.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.470238 - 4.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.468948 - 4.8min
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.468770 - 2.4min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 20.6min finished
+GridSearchCV took 1472.00 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 895, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469318499382
+Seaching params: {'n_estimators': [851, 895, 938], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2, score=-0.470246 - 4.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2, score=-0.469021 - 4.7min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=851, max_depth=40, min_samples_leaf=2, score=-0.468823 - 4.7min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.470246 - 4.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.468977 - 4.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=895, max_depth=40, min_samples_leaf=2, score=-0.468768 - 4.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.470173 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.468926 - 5.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.468714 - 2.5min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 21.8min finished
+GridSearchCV took 1551.16 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 938, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469270895866
+Seaching params: {'n_estimators': [896, 938, 979], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2, score=-0.470348 - 4.9min
+[CV]  max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2, score=-0.469178 - 4.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=896, max_depth=40, min_samples_leaf=2, score=-0.468649 - 4.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.470295 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.469144 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=938, max_depth=40, min_samples_leaf=2, score=-0.468598 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.470286 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.469090 - 5.3min
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.468598 - 2.6min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 22.8min finished
+GridSearchCV took 1620.52 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 979, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.46932471059
+Seaching params: {'n_estimators': [940, 979, 1017], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.470256 - 5.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.468859 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.468712 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.470296 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.468856 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=979, max_depth=40, min_samples_leaf=2, score=-0.468772 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2, score=-0.470281 - 5.5min
+[CV] max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2, score=-0.468818 - 5.5min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1017, max_depth=40, min_samples_leaf=2, score=-0.468735 - 2.7min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 23.8min finished
+GridSearchCV took 1674.11 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 940, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.46927583978
+Seaching params: {'n_estimators': [906, 940, 973], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2, score=-0.470314 - 4.9min
+[CV]  max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2, score=-0.469543 - 4.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=906, max_depth=40, min_samples_leaf=2, score=-0.468889 - 5.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.470334 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.469512 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=940, max_depth=40, min_samples_leaf=2, score=-0.468834 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.470339 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.469495 - 5.3min
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.468781 - 2.6min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 22.8min finished
+GridSearchCV took 1623.95 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 973, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469538345341
+Seaching params: {'n_estimators': [941, 973, 1004], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2, score=-0.470286 - 5.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2, score=-0.468956 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=941, max_depth=40, min_samples_leaf=2, score=-0.468555 - 5.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.470262 - 5.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.468927 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=973, max_depth=40, min_samples_leaf=2, score=-0.468508 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.470193 - 5.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.468887 - 5.4min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.468532 - 2.6min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 23.7min finished
+GridSearchCV took 1680.86 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1004, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469204047724
+Seaching params: {'n_estimators': [975, 1004, 1032], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2, score=-0.470182 - 5.3min
+[CV]  max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2, score=-0.468827 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=975, max_depth=40, min_samples_leaf=2, score=-0.468804 - 5.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.470148 - 5.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.468830 - 5.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1004, max_depth=40, min_samples_leaf=2, score=-0.468812 - 5.4min
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.470116 - 5.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.468845 - 5.6min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.468801 - 2.7min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 24.4min finished
+GridSearchCV took 1734.31 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1032, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469253945696
+Seaching params: {'n_estimators': [1005, 1032, 1058], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2, score=-0.470260 - 5.5min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2, score=-0.468636 - 5.5min
+[CV] max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1005, max_depth=40, min_samples_leaf=2, score=-0.468653 - 5.5min
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.470248 - 5.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.468655 - 5.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1032, max_depth=40, min_samples_leaf=2, score=-0.468608 - 5.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.470263 - 5.7min
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.468606 - 5.7min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.468595 - 2.8min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 25.1min finished
+GridSearchCV took 1783.86 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1058, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469154781399
+Seaching params: {'n_estimators': [1033, 1058, 1082], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2, score=-0.470356 - 5.6min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2, score=-0.468956 - 5.6min
+[CV] max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1033, max_depth=40, min_samples_leaf=2, score=-0.468667 - 5.7min
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.470333 - 5.7min
+[CV] max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.468940 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1058, max_depth=40, min_samples_leaf=2, score=-0.468691 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.470310 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.468950 - 5.9min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.468667 - 2.8min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 25.8min finished
+GridSearchCV took 1830.30 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1082, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469308879469
+Seaching params: {'n_estimators': [1059, 1082, 1104], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2, score=-0.470414 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2, score=-0.468675 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1059, max_depth=40, min_samples_leaf=2, score=-0.468776 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.470397 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.468649 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1082, max_depth=40, min_samples_leaf=2, score=-0.468747 - 5.8min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.470395 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.468641 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.468755 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 26.4min finished
+GridSearchCV took 1868.69 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1104, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469263418284
+Seaching params: {'n_estimators': [1083, 1104, 1124], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2, score=-0.470487 - 5.9min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2, score=-0.469003 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1083, max_depth=40, min_samples_leaf=2, score=-0.468693 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.470457 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.468994 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.468669 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.470391 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.468962 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.468678 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 26.9min finished
+GridSearchCV took 1905.17 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1124, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.4693435294
+Seaching params: {'n_estimators': [1104, 1124, 1143], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.469052 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.470091 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1104, max_depth=40, min_samples_leaf=2, score=-0.468632 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.470095 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.469069 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1124, max_depth=40, min_samples_leaf=2, score=-0.468614 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.470091 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.469053 - 6.2min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.468596 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.4min finished
+GridSearchCV took 1939.60 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1143, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469246608935
+Seaching params: {'n_estimators': [1125, 1143, 1160], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.470033 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468619 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468896 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.470025 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.468624 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1143, max_depth=40, min_samples_leaf=2, score=-0.468926 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2, score=-0.470019 - 6.3min
+[CV] max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2, score=-0.468616 - 6.3min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1160, max_depth=40, min_samples_leaf=2, score=-0.468918 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.9min finished
+GridSearchCV took 1966.72 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1125, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469182572748
+Seaching params: {'n_estimators': [1109, 1125, 1140], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2, score=-0.468884 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2, score=-0.470391 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1109, max_depth=40, min_samples_leaf=2, score=-0.468753 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.470400 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468868 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468734 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2, score=-0.470403 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2, score=-0.468894 - 6.2min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1140, max_depth=40, min_samples_leaf=2, score=-0.468734 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.4min finished
+GridSearchCV took 1939.84 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1125, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469333977725
+Seaching params: {'n_estimators': [1111, 1125, 1138], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.470049 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468785 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468817 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.470067 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468800 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1125, max_depth=40, min_samples_leaf=2, score=-0.468832 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2, score=-0.470075 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2, score=-0.468791 - 6.2min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1138, max_depth=40, min_samples_leaf=2, score=-0.468821 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.5min finished
+GridSearchCV took 1938.03 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1111, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469216978583
+Seaching params: {'n_estimators': [1098, 1111, 1123], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2, score=-0.470347 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2, score=-0.468927 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1098, max_depth=40, min_samples_leaf=2, score=-0.468733 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.470355 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468916 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468722 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.470340 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.468927 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.468713 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.1min finished
+GridSearchCV took 1917.11 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1123, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469326654022
+Seaching params: {'n_estimators': [1111, 1123, 1134], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.470224 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.469014 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468454 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.470235 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.469021 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1123, max_depth=40, min_samples_leaf=2, score=-0.468469 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2, score=-0.470234 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2, score=-0.469009 - 6.2min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1134, max_depth=40, min_samples_leaf=2, score=-0.468452 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.4min finished
+GridSearchCV took 1930.33 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1111, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469230618083
+Seaching params: {'n_estimators': [1100, 1111, 1121], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.470281 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.468849 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.468864 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.470321 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468854 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1111, max_depth=40, min_samples_leaf=2, score=-0.468855 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.470334 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468852 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468864 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.1min finished
+GridSearchCV took 1910.39 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1100, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.46933138485
+Seaching params: {'n_estimators': [1091, 1100, 1108], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2, score=-0.470165 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2, score=-0.468964 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1091, max_depth=40, min_samples_leaf=2, score=-0.468565 - 5.9min
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.470141 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.468969 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.468556 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.470135 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468952 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468547 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 26.8min finished
+GridSearchCV took 1898.93 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1108, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469211379336
+Seaching params: {'n_estimators': [1099, 1108, 1116], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2, score=-0.470065 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2, score=-0.468992 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1099, max_depth=40, min_samples_leaf=2, score=-0.468594 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.470066 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468980 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468573 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.470063 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.468982 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.468576 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.0min finished
+GridSearchCV took 1908.91 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1108, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469206358075
+Seaching params: {'n_estimators': [1100, 1108, 1115], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.470227 - 6.0min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.469101 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1100, max_depth=40, min_samples_leaf=2, score=-0.468866 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.470208 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.469111 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468868 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.470205 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.469122 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468845 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.0min finished
+GridSearchCV took 1912.19 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1115, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469390407063
+Seaching params: {'n_estimators': [1108, 1115, 1121], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.470005 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468971 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1108, max_depth=40, min_samples_leaf=2, score=-0.468838 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.470004 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468988 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468830 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.470005 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468991 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468816 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.2min finished
+GridSearchCV took 1922.69 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1121, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469270773026
+Seaching params: {'n_estimators': [1115, 1121, 1126], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.469982 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.469026 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468837 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.469965 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.469037 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468830 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.469973 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.469039 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.468828 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.3min finished
+GridSearchCV took 1928.63 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1121, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469277333676
+Seaching params: {'n_estimators': [1115, 1121, 1126], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.469926 - 6.0min
+[CV] max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468885 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1115, max_depth=40, min_samples_leaf=2, score=-0.468650 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.469933 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468863 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468660 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.469935 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.468853 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.468668 - 2.9min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.3min finished
+GridSearchCV took 1933.83 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1126, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469151932274
+Seaching params: {'n_estimators': [1121, 1126, 1130], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468876 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.470131 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.468818 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.470128 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.468896 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1126, max_depth=40, min_samples_leaf=2, score=-0.468822 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2, score=-0.470135 - 6.2min
+[CV] max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2, score=-0.468888 - 6.2min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1130, max_depth=40, min_samples_leaf=2, score=-0.468829 - 3.0min
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed: 27.5min finished
+GridSearchCV took 1944.65 seconds for 3 candidate parameter settings.
+Best parameter is:  {'max_features': 60, 'min_samples_split': 4, 'n_estimators': 1121, 'max_depth': 40, 'min_samples_leaf': 2}
+Best score is: -0.469274967178
+Seaching params: {'n_estimators': [1116, 1121, 1125], 'max_features': [60], 'min_samples_split': [4], 'max_depth': [40], 'min_samples_leaf': [2]}
+Fitting 3 folds for each of 3 candidates, totalling 9 fits
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.468735 - 6.1min
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.470223 - 6.1min
+[CV] max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2 
+[CV] max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2 
+[CV]  max_features=60, min_samples_split=4, n_estimators=1116, max_depth=40, min_samples_leaf=2, score=-0.468593 - 6.1min
+Process PoolWorker-419:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib64/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/local/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 383, in put
+    return send(obj)
+  File "/usr/local/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 369, in send
+    self._writer.send_bytes(buffer.getvalue())
+IOError: [Errno 32] Broken pipe
+[CV]  max_features=60, min_samples_split=4, n_estimators=1121, max_depth=40, min_samples_leaf=2, score=-0.470213 - 6.1min
+Process PoolWorker-420:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib64/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib64/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/local/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 383, in put
+    return send(obj)
+  File "/usr/local/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 369, in send
+    self._writer.send_bytes(buffer.getvalue())
+IOError: [Errno 32] Broken pipe
