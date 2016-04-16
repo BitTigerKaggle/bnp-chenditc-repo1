@@ -36,4 +36,12 @@ fillNull(df)
 
 convertToNumeric(df)
 
+start_param_grid = {
+        "n_estimators": [850],
+        "max_features": [40],
+        "min_samples_split": [4],
+        "max_depth": [40],
+        "min_samples_leaf": [2],
+}
+
 auto_grid_search(df.drop(['ID','target'], axis=1), df['target']) 

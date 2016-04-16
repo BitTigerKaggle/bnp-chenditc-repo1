@@ -98,34 +98,29 @@ def get_neighbor_values(best_value, alpha):
         new_values.append(higher_value)
     return new_values
 
-def auto_grid_search(data, target):
-    start_param_grid = {
-            "n_estimators": [1121],
-            "max_features": [60],
-            "min_samples_split": [4],
-            "max_depth": [40],
-            "min_samples_leaf": [2],
-    }
-    temp_param_grid = start_param_grid
-    best_param_grid = {
-            "n_estimators": 1121,
-            "max_features": 60,
-            "min_samples_split": 4,
-            "max_depth": 40,
-            "min_samples_leaf": 2,
-    }
+def auto_grid_search(data, target, start_param_grid = None):
+    if (start_param_grid == None):
+        start_param_grid = {
+                "n_estimators": [1121],
+                "max_features": [60],
+                "min_samples_split": [4],
+                "max_depth": [40],
+                "min_samples_leaf": [2],
+        }
 
+    temp_param_grid = start_param_grid
+    # Use a random one as default best
+    best_param_grid = { param : start_param_grid[param][0] for param in start_param_grid } 
 
     best_score = -999
     new_best_score = -99    
-    alpha = 0.06
+    alpha = 0.1
 
     param_queue = start_param_grid.keys()
 
     while (True): 
         best_score = new_best_score 
 
-        alpha = alpha * 0.9
 
         # run grid search and compute new best param
         print "Seaching params:", temp_param_grid
@@ -152,6 +147,7 @@ def auto_grid_search(data, target):
             new_values = get_neighbor_values(best_value, alpha)
             new_param_grid[key] = new_values
         else:
+            alpha = alpha * 0.9
             # 2. find the next one to tune
             param_queue = param_queue[1:] + param_queue[:1]
             key = param_queue[0] 
