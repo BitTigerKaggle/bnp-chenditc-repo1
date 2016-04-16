@@ -123,4 +123,4 @@
  - Turn all param in a loop.
  
 #### 2016/04/15:
-1. Good reading about tip on data science: http://www.slideshare.net/OwenZhang2/tips-for-data-science-competitions
+1. **Good** reading about tip on data science: http://www.slideshare.net/OwenZhang2/tips-for-data-science-competitions
