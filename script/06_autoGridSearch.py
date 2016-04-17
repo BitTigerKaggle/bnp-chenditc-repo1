@@ -44,4 +44,4 @@ start_param_grid = {
         "min_samples_leaf": [2],
 }
 
-auto_grid_search(df.drop(['ID','target'], axis=1), df['target']) 
+auto_grid_search(df.drop(['ID','target'], axis=1), df['target'], start_param_grid) 
